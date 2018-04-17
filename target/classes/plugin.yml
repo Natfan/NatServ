@@ -1,0 +1,37 @@
+name: NatServ
+version: 1.0
+description: The NatServ Server Core
+website: https://natfan.io/
+author: Natfan
+main: io.natfan.natserv.NatServ
+commands:
+  announce:
+    description: Sends an announcement to the whole server.
+    aliases: [ann, bc, broadcast, yell]
+  citem:
+    description: Gives you custom items.
+    aliases: [customitem, customitems]
+  coordinates:
+    description: Broadcasts your coordinates server-wide.
+    aliases: [coords, location, c, l]
+  rules:
+    description: Lists the server rules.
+    aliases: [rule, guide, law, laws, guides]
+  recipe:
+    description: The recipe viewer command.
+    aliases: [craft, rec]
+  recipes:
+    description: The recipe list command.
+    aliases: [crafts, recs]
+  message:
+    description: P2P & P2C messaging client.
+    aliases: [msg, tell, w, whisper, chat, talk, yo]
+  reply:
+    description: P2P & P2C messaging client.
+    aliases: [r, cc, bcc]
+  soulbind:
+    description: Toggles the item's droppable state.
+    aliases: [soulbound, bind]
+  uuid:
+    description: Checks your UUID. Mainly for debugging.
+    aliases: [uid]
